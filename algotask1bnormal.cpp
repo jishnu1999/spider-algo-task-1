@@ -23,7 +23,6 @@ int main()
 {
 	int init,x,flag,b[100],c[100],i=0,j=0,k=0,sum1=0,m=0,ct=0,input=0,sum2=0,sum3=0;
 	int a[100]={0};
-	string line;
 	cout<<"enter initial floor number";
 	cin>>init;
 	cout<<"enter floor sequence";
@@ -36,10 +35,6 @@ int main()
 		
 	}
 	
-	/*while(!((a[m]==0)&&(a[m+1]==0)))
-	{
-		cout<<a[m++]<<" ";
-	}*/
 	for(int x=0;x<i;x++)
 	{
 		if(a[x]>init)
